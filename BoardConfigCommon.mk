@@ -42,7 +42,7 @@ TARGET_KERNEL_CONFIG := \
     vendor/sdm845-perf_defconfig \
     vendor/xiaomi/sdm845-common.config
 TARGET_KERNEL_NO_GCC := true
-TARGET_KERNEL_CLANG_PATH := $(BUILD_TOP)/prebuilts/clang/host/linux-x86/proton-clang
+TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
 # Platform
